@@ -1,0 +1,1 @@
+No desafio 3, a lista deve ser passada separando os números dela por vírgulas, assim a aplicação funcionará de forma correta

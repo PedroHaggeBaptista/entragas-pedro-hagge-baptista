@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 7 - Exercícios</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="bodySections">
+        <h1>Exercício 1</h1>
+        <section class="sectionEx1">
+            <button class = 'btnEx1' onclick="ex1('red')">-</button>
+            <input type="number" class="inputExcs" placeholder="Valor inicial" id = 'ex1InputNumber'>
+            <button class = 'btnEx1' onclick="ex1('soma')">+</button>
+        </section>
+        <h1>Exercício 2</h1>
+        <section class="sectionEx1">
+            <input type="text" class="inputExcs" placeholder="Valor1" id = 'ex2InputValor1'>
+            <input type="text" class="inputExcs" placeholder="Valor2" id = 'ex2InputValor2'>
+            <button class = 'btnEx1' onclick="ex2()">Troca</button>
+        </section>
+        <h1>Exercício 3</h1>
+        <section class="sectionEx1">
+            <p>Pressione "ENTER" para formatar</p>
+            <form action="javascript:ex3()">
+                <input class="inputExcs" type="tel" placeholder="Número de telefone" id="numeroTel" maxlength="15" />
+            </form>
+            <!-- onkeydown="ex3()" -->
+        </section>
+        <h1>Exercício 4</h1>
+        <section class="sectionEx1">
+            <input class="inputExcs" id = "inputExcs" placeholder="Quantidade de pessoas" type="number">
+            <select id="typeEx3">
+                <option value="not">Noturno</option>
+                <option value="diu">Diurno</option>
+            </select>
+            <button class = 'btnEx1' onclick="ex4()">Checar</button>
+            <div id = 'resulsEx4'>
+
+            </div>
+        </section>
+        <h1>Exercício 5</h1>
+        <p>Pressione "ENTER" após inserir a quantidade de alunos</p>
+        <section class="sectionEx1" style="width: 100%;">
+            <form action="javascript:numberAlunos()">
+                <input class="inputExcs" id = "inputQntAlunos" placeholder="Quantidade de Alunos" type="number">   
+            </form>
+            <div id="bodyUserGrades">
+                <!-- <div id = 'formUserGrades'>
+                    <input type="text" placeholder="Informe nota prova">
+                    <input type="text" placeholder="Informe nota trabalho">
+                </div> -->
+            </div>
+            <button id = 'btnEx5' onclick="calculos()" style="display: none;">Checar</button>
+        </section>
+        <section class="sectionEx1" style="width: 100%;">
+            <div id = 'medias'>
+
+            </div>
+        </section>
+    </div>
+    
+</body>
+<script src="./index.js"></script>
+</html>

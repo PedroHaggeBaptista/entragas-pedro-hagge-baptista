@@ -1,0 +1,2 @@
+1- Deve abrir o arquivo index.html, o qual contém todos os exercícios.
+2- No quinto exercício pelo fato de haver duas validações e ter ficado muito poluído dois botões juntos, no primeiro campo, deverá ser colocado a quantidade de alunos e então pressionar "ENTER", assim abrirá os campos para digitação da nota, e então com as notas preenchidas aperte o botão "CHECAR", e ele retornará os cálculos feitos.
